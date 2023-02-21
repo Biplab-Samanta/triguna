@@ -1,0 +1,153 @@
+/* Custom CSS
+-------------------------*/
+h1,
+h2 {
+  font-family: [[setting:headingfont]];
+}
+h1,
+h2,
+h3,
+.da-slide h2,
+.da-slide h1,
+.da-slide h3,
+.da-slide h4,
+.da-slide h5,
+.da-slide h6,
+h4,
+h5,
+h6,
+input[type="submit"],
+input.srch-fld,
+input[type="text"],
+.adminsearchform input[type="text"],
+.da-slide,
+select, .news-updates-header a, input[type="file"]
+
+p,
+.da-slide p,
+html,
+textarea,
+body {
+    font-family: [[setting:bodyfont]];
+    font-style: normal;
+    font-weight: 400;
+    
+}
+body {
+    padding-top: 0 !important;
+}
+h4 {
+    margin: 0;
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
+[[setting:fontfilesheading]]
+[[setting:fontfilesbody]]
+
+.landing-page .logo-wr {
+    background: url([[setting:logobackgroundimage]]) no-repeat left top;     
+}
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+	.landing-page .logo-wr {
+		background-size: 95%;
+
+	}
+}
+
+.loginpanel h2:before, a.click {
+    background-image: url([[setting:logo]]);
+}
+
+
+/* new css add here */
+.navbar {
+    z-index: 99;
+}
+.nav-collapse {
+    display: flex !important;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    margin-top: 1rem;
+    color: #fff;
+}
+.nav-collapse a{
+    color: #fff;
+}
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+    width: 100%;
+}
+button.btn.btn-outline-secondary.dropdown-toggle.icon-no-margin {
+    height: auto;
+    width: fit-content;
+    color: #000 !important;
+}
+div#page-navbar {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.userinitials{
+    display: grid !important;
+    place-items: center;
+    font-weight: 700;
+    line-height: 2;
+    height: 2rem;
+    width: 2rem;
+}
+.userbutton > span:last-child {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.simplesearchform .input-group input.form-control {
+    height: calc(1.5em + 0.75rem + 2px) !important;
+}
+.simplesearchform .btn-submit {
+    background-color: #f7634d;
+    border-color: #f7634d;
+}
+.page-mycourses #region-main-box{
+    width: 100%;
+}
+.path-course .icons-collapse-expand.collapsed .collapsed-icon, .path-course .icons-collapse-expand .expanded-icon {
+    justify-content: center;
+}
+.activity-item {
+    margin: 1rem 0;
+}
+.activity-item  .btn-outline-secondary {
+    color: #000 !important;
+}
+.activity-item  .btn-outline-secondary:hover {
+    color: #fff !important;
+}
+.pagelayout-mydashboard #region-main {
+    margin: 29px;
+}
+.logining-wr {
+	background: rgba(0, 0, 0, .3);
+    float: right;
+    border-radius: 4px;
+    margin: 70px 44px 0 2px;
+    padding: 4px;
+    height: 39px;
+    overflow: hidden;
+}
+.loginform {
+    width: 50%;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0px 0px 17px -3px #474747;
+}
+form#guestlogin {
+    float: left;
+    margin-right: 1rem;
+}
